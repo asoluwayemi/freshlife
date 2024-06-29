@@ -286,6 +286,7 @@
 	border-radius: 10px 10px 0px 0px;
 	border: 1px solid skyblue;
 	cursor: pointer;
+	height: 7vh;
 	text-align: center;
 	display: flex;
 }
@@ -325,6 +326,58 @@
     top: 50px;
     right: 0; 
     border-radius: 5px;
+}
+.about-btn {
+	color: black;
+	font-weight: bolder;
+	transition: 0.5s;
+}
+.about-btn:hover {
+	color: skyblue;
+	font-weight: bolder;
+}
+.text-p-tes{
+	  color: skyblue;
+	  font-family: "Playwrite IT Moderna", cursive;
+	  font-optical-sizing: auto;
+	  font-style: normal;
+}
+.text-h-tes{
+	  color: black;
+	  font-family: "Playwrite IT Moderna", cursive;
+	  font-optical-sizing: auto;
+	  font-style: normal;
+	  font-size: 50px;
+	  font-weight: bolder;
+}
+ .testimonial-card {
+    border: none;
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.testimonial-card .card-body {
+    padding: 10px;
+}
+.testimonial-card .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+ .testimonial-card .testimonial-content {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.testimonial-card .user-img {
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     object-fit: cover;
+     float: left;
+     margin-right: 15px;
+}
+.test-cards {
+	gap: 10px;
 }
 /*
 .header-text{
