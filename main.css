@@ -31,16 +31,16 @@
 	border-radius: 0px 0px 12px 12px;
 	height: 10vh;
 	color: white;
-	-webkit-box-shadow: -1px 32px 11px -11px rgba(0,76,168,1);
-	-moz-box-shadow: -1px 32px 11px -11px rgba(0,76,168,1);
-	box-shadow: -1px 32px 11px -11px rgba(0,76,168,1);
+	-webkit-box-shadow: -1px 25px 7px -15px rgba(0,76,168,1);
+	-moz-box-shadow: -1px 25px 7px -15px rgba(0,76,168,1);
+	box-shadow: -1px 25px 7px -15px rgba(0,76,168,1);
 }
 .header-nav img {
 	height: 80px;
 	width: 80px;
 }
 .logo {
-	  color: black;
+	  color: #004BA8;
 	  font-family: "Bebas Neue", sans-serif;
 	  font-weight: 400;
 	  font-style: normal;
@@ -62,23 +62,41 @@
 	 font-style: normal;
 	 font-size: 14px;
 }
-
+.mynav ul li a{
+	font-weight: bolder;
+	color: black;
+}
 .icon{
 	color: lightskyblue;
 }
-
 .myicon{
 	color: #004BA8;
 }
-
+.order button {
+	background-color: skyblue;
+	color: white;
+	border: none;
+	height: 60px;
+	width: 170px;
+	border-radius: 50px;
+	font-weight: bolder;
+	transition: 0.5s;
+}
+.order button:hover {
+	border: 2px solid #26408B;
+	color: #26408B;
+	background-color: transparent;
+}
 .bgimg{
 
 }
+
 .header{
-	background-image: url(images/bgimg_r.png);
+	background-image: url(images/bg.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
+	position: relative;
 }
 
 .headerrow{
@@ -86,9 +104,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: rgba(137, 218,225, 0.9);
+	background: rgba(225, 225,225, 0.8);
 }
-
+.header-nav-head {
+	position: absolute;
+	top: 0;
+}
 
 
 .headercol{
@@ -116,7 +137,195 @@
 
 /*	height: inherit !important;*/
 }
+.innboxes h1 {
+	color: white;
+	font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #26408B;
+}
+.innboxes button {
+	height: 60px;
+	border-radius: 50px;
+	background-color: skyblue;
+	border: none;
+}
+.service {
+	width: 100%;
+	text-align: center;
+}
+.text-service h5{
+	  color: skyblue;
+	  font-family: "Playwrite IT Moderna", cursive;
+	  font-optical-sizing: auto;
+	  font-style: normal;
+}
+.text-service h1{
+	  color: black;
+	  font-family: "Playwrite IT Moderna", cursive;
+	  font-optical-sizing: auto;
+	  font-weight: bold;
+	  font-style: normal;
+}
+.cards {
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
 
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+ }
+.btn-custom {
+    color: black;
+    border: none;
+    font-weight: bolder;
+    transition: background 0.3s;
+}
+.btn-custom:hover {
+    color: skyblue;
+
+ }
+ .card-title{
+      font-family: "Playwrite IT Moderna", cursive;
+	  font-optical-sizing: auto;
+	  font-style: normal;
+	  font-weight: bolder;
+ }
+
+.things {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #26408B;
+}
+.things h1 {
+   font-size: 40px;
+   color: white;
+   font-family: "Playwrite IT Moderna", cursive;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: bolder;
+}
+.things p {
+   color: white;
+   font-family: "Playwrite IT Moderna", cursive;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: bolder;
+}
+.thing-row {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+.head_one p {
+   color: skyblue;
+   font-family: "Playwrite IT Moderna", cursive;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: bolder;
+}
+.head_one h1 {
+   color: black;
+   font-family: "Playwrite IT Moderna", cursive;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: bolder;
+}
+.head_two {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	display: flex;
+}
+.card-logo{
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+.card-logo img{
+	height: 130px;
+	width: 130px;
+}
+.certified h3{
+	  font-family: "Playwrite IT Moderna", cursive;
+	  font-optical-sizing: auto;
+	  font-weight: bolder;
+	  font-style: normal;
+}
+.btnn_one {
+	background-color: skyblue;
+	border-radius: 10px 10px 0px 0px;
+	cursor: pointer;
+	height: 7vh;
+	transition: 0.5s;
+	text-align: center;
+	display: flex;
+}
+.btnn_one:hover {
+	background-color: white;
+	border-radius: 10px 10px 0px 0px;
+	border: 1px solid skyblue;
+	cursor: pointer;
+}
+.btn-about{
+	margin-left: 10px;
+}
+.btnn_two {
+	background-color: white;
+	border-radius: 10px 10px 0px 0px;
+	border: 1px solid skyblue;
+	cursor: pointer;
+	text-align: center;
+	display: flex;
+}
+
+.btnn_two:hover {
+	background-color: skyblue;
+	border-radius: 10px 10px 0px 0px;
+	cursor: pointer;
+	height: 7vh;
+	transition: 0.5s;
+
+}
+.about-text {
+	font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+	font-style: normal;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+.about-bg {
+	height: 50vh;
+	margin: auto;
+	background-image: url(images/about.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.about-inner-bg {
+    position: relative; 
+}
+
+.about-inner {
+    width: 500px;
+    height: 40vh;
+    position: absolute;
+    top: 50px;
+    right: 0; 
+    border-radius: 5px;
+}
 /*
 .header-text{
 	width: 60%;
