@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<title>Bootstrap - Learning Moving Components</title>
+	<style type="text/css">
+		/*div{
+			border: 1px solid red;
+			min-height: 400px;
+		}*/
+	
+	</style>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+	<div class="row">
+
+		<div class="col-md-6">
+			<div class="alert alert-primary alert-dismissible fade show" role="alert"><p>You have registered successfully</p>
+				<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<div class="alert alert-primary alert-dismissible fade show" role="alert">
+				<h3>PRIVACY POLICY</h3>
+				<p>You have registered successfully</p>
+	<button type="button" class="btn btn-success" data-bs-dismiss="alert" aria-label="Close">Close</button>
+			</div>
+
+		</div>
+
+		
+	</div>
+
+
+
+
+<!-- Modal action -->
+
+<div class="row">
+		<div class="col-md-6">
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productmodal">
+				  Launch demo modal
+			</button>
+		</div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="productmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Computing Products</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      	<h4>Product Details</h4>
+      	<img src="images/img1.jpg" class="img-fluid">
+      	<p>This site can’t be reachedwww.timesofisrael.com’s server IP address could not be found.Try:
+      	Checking the connection Checking the proxy, firewall, and DNS configuration Running Windows Network Diagnostics ERR_NAME_NOT_RESOLVED</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+ <!--        <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!--The end of the Modal-->
+
+</div>
+
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

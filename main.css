@@ -3,39 +3,149 @@
 	padding: 0px;
 }
 
-div{
-	border: 1px solid red;
-}
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #003559;
-  overflow: hidden;
-  min-height: 80px;
-  float: center;
+.mdiv{
+/*	border: 1px solid red;*/
+	min-height: 20px;
+	margin: auto;
 
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  min-height: 100px;
-  align-content: center;
-  min-width: 150px;
+.toplist{
+	min-height: 20px;
+/*	border: 1px solid green;*/
+	width: auto;
+
+}
+.toplistrow{
+	background-color:#004BA8;
+	height: 5vh;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #fff;
-  color: #003559;
+.header-nav {
+	width: 70%;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	background-color:white;
+	border: 1px solid #004BA8;
+	border-radius: 0px 0px 12px 12px;
+	height: 10vh;
+	color: white;
+	-webkit-box-shadow: -1px 32px 11px -11px rgba(0,76,168,1);
+	-moz-box-shadow: -1px 32px 11px -11px rgba(0,76,168,1);
+	box-shadow: -1px 32px 11px -11px rgba(0,76,168,1);
+}
+.header-nav img {
+	height: 80px;
+	width: 80px;
+}
+.logo {
+	  color: black;
+	  font-family: "Bebas Neue", sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+	  font-weight: bolder;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #0353A4;
-  color: white;
+.toplist {
+	 justify-content: center;
+	 align-items: center;
+	 align-content: center;
 }
+.toplist a{
+	list-style-type: none;
+	text-decoration: none;
+	color: #ffffff;
+	 font-family: "Playwrite DE Grund", cursive;
+	 font-optical-sizing: auto;
+	 font-weight: 900;
+	 font-style: normal;
+	 font-size: 14px;
+}
+
+.icon{
+	color: lightskyblue;
+}
+
+.myicon{
+	color: #004BA8;
+}
+
+.bgimg{
+
+}
+.header{
+	background-image: url(images/bgimg_r.png);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.headerrow{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(137, 218,225, 0.9);
+}
+
+
+
+.headercol{
+	min-height: 600px;
+	padding: 20px;
+}
+
+.headercolinn{
+	min-height: 600px;
+	margin: auto;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	
+}
+
+.innboxes{
+/*	border: 2px solid yellow;*/
+	margin: auto;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	min-height: 500px;
+	min-width: 500px;
+
+/*	height: inherit !important;*/
+}
+
+/*
+.header-text{
+	width: 60%;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bolder;
+}
+.header-text h1 {
+	  font-family: "Kanit", sans-serif;
+	  font-weight: 900;
+	  font-style: normal;
+}
+.header-text-btn {
+	width: 60%;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bolder;
+}
+.header-text-btn button {
+	height: 60px;
+	width: 150px;
+	border-radius: 50px;
+}
+.header-sub-btn button {
+	height: 60px;
+	width: 150px;
+	border-radius: 50px;
+}*/

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<title>Bootstrap - Learning Moving Components</title>
+	<style type="text/css">
+		/*div{
+			border: 1px solid red;
+			min-height: 400px;
+		}*/
+	
+	</style>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+	
+
+
+
+
+<!-- Modal action -->
+
+<div class="row">
+		<div class="col-md-6">
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#register">
+				  Sign Up
+			</button>
+		</div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Computing Products</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      	<h4>Sign Up Form</h4>
+      	<form>
+      		<input type="text" name="Surname">
+      		<input type="text" name="First Name">
+      	</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>
+ <!--        <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!--The end of the Modal-->
+
+
+
+<!-- Modal action -->
+
+<div class="row">
+		<div class="col-md-6 " data-bs-toggle="modal" data-bs-target="#terms">
+			 <a href="#">Our terms</a>
+		</div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="terms" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Effective terms</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      	<h4>Our Terms</h4>
+      	<p>This is our terms and condition</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Okay</button>
+				 <button type="button" class="btn btn-primary">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--The end of the Modal-->
+
+</div>
+
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

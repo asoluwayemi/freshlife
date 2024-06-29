@@ -1,0 +1,34 @@
+*{
+
+	/*margin: 0px;
+	padding: 0px;
+border: 1px solid red;*/
+}
+
+.mynav{
+/*background-color: red;*/
+color: sienna;
+font-weight: bold;
+}
+.mybrand{
+	color:darkblue;
+	font-weight: bolder;
+}
+
+.mybrand:hover{
+	color:skyblue;
+}
+
+.active{
+	color: red !important;
+	font-style: italic;
+	font-weight: bolder;
+}
+ul li img{
+	max-width: 30px;
+}
+
+.myicon{
+	color: rebeccapurple;
+	font-size: 2em;
+}
