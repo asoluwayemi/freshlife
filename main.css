@@ -16,20 +16,21 @@
 	width: auto;
 
 }
+
 .toplistrow{
 	background-color:#004BA8;
 	height: 5vh;
 }
 
 .header-nav {
-	width: 70%;
+	width: 80%;
 	margin: auto;
 	justify-content: center;
 	align-items: center;
 	background-color:white;
 	border: 1px solid #004BA8;
 	border-radius: 0px 0px 12px 12px;
-	height: 10vh;
+	height: 13vh;
 	color: white;
 	-webkit-box-shadow: -1px 25px 7px -15px rgba(0,76,168,1);
 	-moz-box-shadow: -1px 25px 7px -15px rgba(0,76,168,1);
@@ -39,6 +40,8 @@
 	height: 80px;
 	width: 80px;
 }
+
+
 .logo {
 	  color: #004BA8;
 	  font-family: "Bebas Neue", sans-serif;
@@ -60,7 +63,7 @@
 	 font-optical-sizing: auto;
 	 font-weight: 900;
 	 font-style: normal;
-	 font-size: 14px;
+	 font-size: 10px;
 }
 .mynav ul li a{
 	font-weight: bolder;
@@ -76,11 +79,12 @@
 	background-color: skyblue;
 	color: white;
 	border: none;
-	height: 60px;
-	width: 170px;
+	height: 40px;
+	width: 150px;
 	border-radius: 50px;
 	font-weight: bolder;
 	transition: 0.5s;
+	cursor: pointer;
 }
 .order button:hover {
 	border: 2px solid #26408B;
@@ -94,6 +98,7 @@
 .header{
 	background-image: url(images/bg.jpg);
 	height: 100vh;
+	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -110,10 +115,10 @@
 	position: absolute;
 	top: 0;
 }
+ 
 
-
-.headercol{
-	min-height: 600px;
+.headercol { 
+	min-height: 700px;
 	padding: 20px;
 }
 
@@ -123,7 +128,6 @@
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	
 }
 
 .innboxes{
@@ -132,10 +136,13 @@
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	min-height: 500px;
-	min-width: 500px;
+	min-height: 300px;
+	min-width: 350px;
 
 /*	height: inherit !important;*/
+}
+.in-text {
+	margin-top: 15%;
 }
 .innboxes h1 {
 	color: white;
@@ -149,7 +156,10 @@
 	border-radius: 50px;
 	background-color: skyblue;
 	border: none;
+	width: 200px;
 }
+
+
 .service {
 	width: 100%;
 	text-align: center;
@@ -173,7 +183,9 @@
 	align-items: center;
 	gap: 10px;
 }
-
+.card-img-top{
+	height: 200px;
+}
 .card {
     border: none;
     border-radius: 15px;
@@ -281,6 +293,7 @@
 .btn-about{
 	margin-left: 10px;
 }
+
 .btnn_two {
 	background-color: white;
 	border-radius: 10px 10px 0px 0px;
@@ -289,6 +302,7 @@
 	height: 7vh;
 	text-align: center;
 	display: flex;
+	border-left: 1px solid gray;
 }
 
 .btnn_two:hover {
@@ -308,18 +322,22 @@
 	justify-content: center;
 	align-items: center;
 }
-.about-bg {
-	height: 50vh;
+/*.about-bg {
+	height: 100vh;
 	margin: auto;
+	width: 90%;
 	background-image: url(images/about.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+}*/
+/*.card-about {
+	width: 16rem;
 }
 .about-inner-bg {
     position: relative; 
 }
-
-.about-inner {
+*/
+/*.about-inner {
     width: 500px;
     height: 40vh;
     position: absolute;
@@ -336,6 +354,8 @@
 	color: skyblue;
 	font-weight: bolder;
 }
+
+*/
 .text-p-tes{
 	  color: skyblue;
 	  font-family: "Playwrite IT Moderna", cursive;
@@ -350,11 +370,12 @@
 	  font-size: 50px;
 	  font-weight: bolder;
 }
+
  .testimonial-card {
     border: none;
     border-radius: 20px;
     width: 350px;
-    height: 200px;
+    height: 230px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .testimonial-card .card-body {
@@ -364,7 +385,7 @@
     font-size: 20px;
     margin-bottom: 10px;
 }
- .testimonial-card .testimonial-content {
+.testimonial-content {
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -379,35 +400,355 @@
 .test-cards {
 	gap: 10px;
 }
-/*
-.header-text{
-	width: 60%;
-	margin: auto;
-	justify-content: center;
-	align-items: center;
-	color: white;
+
+.contact-container {
+   margin: 50px auto;
+   max-width: 1200px;
+   padding: 20px;
+   background-color: white;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+ }
+
+ .contat_bg{
+ 	background-color: lightgrey;
+ }
+ .get-in {
+ 	color: skyblue;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+	font-style: normal;
+ }
+  .contact-info h1 {
+ 	color: black;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: bolder;
+	width: 80%;
+ }
+.phone-info {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+.phone-info div {
+	width: 30px;
 	font-weight: bolder;
 }
-.header-text h1 {
-	  font-family: "Kanit", sans-serif;
-	  font-weight: 900;
+.phone-info i {
+    color: #007bff;
+    }
+.phone-info .col p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+.next-text {
+	font-weight: bolder;
+}
+.quick-info {
+	color: skyblue;
+}
+.next-btn {
+	background-color: #004BA8;
+	color: white;
+	border-radius: 50px;
+	font-weight: bolder;
+	width: 150px;
+	height: 50px;
+}
+.form {
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+.form-text {
+	color: black;
+	text-align: center;
+	font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+	font-style: normal;
+}
+ .contact-info {
+    padding: 20px;
+ }
+ .form-input {
+     position: relative;
+ }
+ .form-input input {
+     padding-left: 40px;
+ }
+ .form-input input::placeholder {
+     color: black;
+ }
+.form-input .fa {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #007bff;
+}
+.contact-form {
+   padding: 20px;
+   background-image: url('images/water-contact.jpg');
+   background-size: cover;
+   background-position: center;
+   color: white;
+ }
+.agree-text {
+	width: 50%;
+}
+.btnn-div button{
+	background-color: #004BA8;
+	color: white;
+	font-weight: bolder;
+	border: none;
+	width: 150px;
+	height: 50px;
+	border-radius: 50px;
+}
+.all-agree-btn{
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.contact-form label {
+    color: white;
+}
+.form-control::placeholder {
+   color: #d1d1d1;
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+ }
+
+
+.footer {
+	background-color: #004BA8;
+}
+.footer-inner{
+	width: 90%;
+}
+
+.inner-footer{
+	width: 300px;
+	margin-top: 10%;
+}
+.footer-logo {
+	font-family: "Playwrite IT Moderna", cursive;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: bolder;
+}
+.footer-row {
+	height: 0.5vh;
+	width: 50%;
+	background-color: white;
+}
+.inner-two h5{
+	font-family: "Playwrite IT Moderna", cursive;
+	  font-optical-sizing: auto;
 	  font-style: normal;
+	  font-size: 20px;
+	  font-weight: bolder;
 }
-.header-text-btn {
-	width: 60%;
+.inner-two ul li {
+	font-size: 17px;
+	cursor: pointer;
+	list-style: none;
+	color: lightgray;
+}
+.inner-inner-links {
+	display: flex;
+}
+.inner-inner-list-two {
+	  font-optical-sizing: auto;
+	  font-style: normal;
+	  font-size: 15px;
+	  font-weight: bolder;
+	  cursor: pointer;
+	  color: lightgray;
+}
+.faq {
+	color:#004BA8;
+	font-family: "Playwrite IT Moderna", cursive;
+	font-weight: bolder;
+}
+/*.large-image-con {
+	width: 80%;
+}*/
+  .large-image {
+  	margin: auto;
+  	justify-content: center;
+  	align-items: center;
+    width: 100%;
+    max-width: none;
+    height: 120vh;
+  }
+.bus_hour li {
+	font-size: 17px;
+	cursor: pointer;
+	list-style: none;
+	color: lightgray;
+	font-family: "Playwrite IT Moderna", cursive;
+	text-align: left;
+}
+
+.buttom-footer{
+	background-color: #26408B;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+}
+.buttom-footer div {
+	  font-family: "Playwrite IT Moderna", cursive;
+	  font-optical-sizing: auto;
+	  font-style: normal;
+	  font-size: 15px;
+	  font-weight: bolder;
+	  cursor: pointer;
+	  margin: auto;
+	  justify-content: center;
+	  align-items: center;
+	  color: lightgray;
+}
+
+.pry_color{
+	color: skyblue !important;
+}
+.sec_color{
+	color: #26408B !important;
+}
+
+@media only screen and (max-width: 600px) {
+.header-nav {
+	height: 13vh;
+}
+.order button {
+	background-color:#004BA8;
+
 	margin: auto;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 10px;
+}
+.inner-nav {
+	background-color: skyblue;
 	color: white;
+}
+.inner-nav ul {
+	text-align: center;
+	margin: auto;
+}
+.inner-nav ul li a {
+	color: white;
+}
+.caroimg {
+	height: 200px;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+.toplist{
+	min-height: 20px;
+}
+.toplistrow{
+	height: 10vh;
+}
+.headercolinn{
+	height: auto;
+	margin-top: 10%;
+}
+.innboxes{
+	min-height: 200px;
+}
+.innboxes h1 {
+	font-size: 2rem;
+}
+.in-text {
+	height: 100px;
+}
+.innboxes button {
+	width: 120px;
+	height: 50px;
+}
+.about{
+	width: 100%;
+	height: 100vh;
+}
+.about-head{
+	display: block;
+	width: 100%;
+}
+.head_one {
+	width: 95%;
+}
+.head_two{
+	width: 95%;
+}
+.head_two img {
+	height: 100px;
+	width: 100px;
+}
+.card-about {
+	width: 16rem;
+}
+.certified h3 {
+	font-size: 20px;
+}
+.btn-about{
+	margin-left: 0px;
+}
+.btn-about {
+	width: 100%;
+}
+.btnn_one {
+	width: 200px;
+}
+.about-bg {
+	width: 100%;
+	height: 100vh;
+}
+
+.about-inner {
+    width: 500px;
+    height: 40vh;
+    position: absolute;
+    margin-top: 50%;
+    right: 20px; 
+    left: 0;
+}
+.text-h-tes{
+	  font-size: 20px;
+	  width: 80%;
+	  margin: auto;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center;
+}
+  .large-image {
+    width: 100%;
+    height: 20vh;
+  }
+
+.about-text {
+	font-size: 10px;
 	font-weight: bolder;
 }
-.header-text-btn button {
-	height: 60px;
-	width: 150px;
-	border-radius: 50px;
+.inner-footer{
+	width:  auto;
 }
-.header-sub-btn button {
-	height: 60px;
-	width: 150px;
-	border-radius: 50px;
-}*/
+.buttom-footer{
+	height: auto;
+	width: 100%;
+	display: inline-block;
+}
+.buttom-footer div {
+	width: 100%;
+}
+}
+
