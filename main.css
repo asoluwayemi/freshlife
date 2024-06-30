@@ -401,6 +401,11 @@
 	gap: 10px;
 }
 
+.aboutus{
+
+	display: flex;
+}
+
 .contact-container {
    margin: 50px auto;
    max-width: 1200px;
@@ -413,6 +418,11 @@
  .contat_bg{
  	background-color: lightgrey;
  }
+
+ .map{
+ 	width: 100%;
+ }
+
  .get-in {
  	color: skyblue;
     font-family: "Playwrite IT Moderna", cursive;
