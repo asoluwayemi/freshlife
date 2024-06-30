@@ -50,8 +50,8 @@
 									        <li class="nav-item">
 									          <a class="nav-link active" aria-current="page" href="#">Home</a>
 									        </li>
-									        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-									         <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+									        <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#productmodal" href="#">About</a></li>
+									         <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
 									         <!-- <li class="nav-item"><a class="nav-link" href="#">Blog</a></li> -->
 
 									        <li class="nav-item dropdown">
@@ -67,8 +67,7 @@
 									        </li>
 
 
-									        <li class="nav-item">
-									          <a class="nav-link">Contact Us</a>
+									        <li class="nav-item"><a class="nav-link" href="#contacts">Contact Us</a>
 									        </li>
 									      </ul>
 									      <form class="d-flex order" role="search">
@@ -84,6 +83,8 @@
 
 
 					<!--end of menu bar-->
+
+
 
 
 				 <div class="col-md-8 headercol" >
@@ -137,15 +138,64 @@
 		
 			</div>
 	</div>
-	<!-- background-image: url('images/w1.jpg'); height: 100vh; -->
+	
 <!-- The end of carousel section -->
+
+		<!-- The begining of About -->
+
+<div class="modal fade" id="productmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" style="color:skyblue;">About Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+     	<img src="images/obj.png" alt="CEO" class="img-fluid">
+      	<p class="sec_color">Engr. Olusegun Obasanjo</p>
+      	<br>
+      	 	     	
+      	 	<h3 class="pry_color">Our Mission</h3>
+			<p class="sec_color">To provide a safe, reliable, high-quality water supply with exceptional service and value.</p>
+
+			<h3 class="pry_color">Our Vision</h3>
+			<p class="sec_color">Setting the standard for utility excellence.</p>
+
+			<h3 class="pry_color">Our Values</h3>
+			<p class="sec_color">Quality
+			Integrity
+			Safety
+			Accountability
+			Respect
+			Our Goals
+			Ensure a safe, reliable, high quality water supply
+			Provide excellent customer services
+			Be an employer of choice
+			Ensure financial stability and predictable rates
+			Continuously improve business processes
+			Proactively manage infrastructure
+			Be good stewards of the environment
+			Promote a safe work environment and a security conscious culture</p>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+ <!--        <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>							
+						
+		<!-- The end of about -->
 
 
 <!------begining of cards------->
-	<div class="col justify-content-center m-auto mt-5 service">
+	<div class="col justify-content-center m-auto mt-5 service" id="products">
 		<div class="col text-service">
-			<h5>Services</h5>
-			<h1 style="color:#26408B;">We pride ourselves on our standard service.</h1>	
+			<h5>Products</h5>
+			<h1 style="color:#26408B;">We pride ourselves in our standard products.</h1>	
 		</div>
 		 <div class="container mt-5">
 		    <div class="row">
@@ -192,31 +242,31 @@
 		   <div class="col things mt-5">
 		    <div class="row thing-row">
 		      <div class="col">
-		        <h1>7.8k</h1>
-		        <p>Water Delivered</p>
+		        <h1>150.8k</h1>
+		        <p>Bottled Water Delivered</p>
 		      </div>
 		    </div>
 		    <div class="row thing-row">
 		      <div class="col">
-		        <h1>5+</h1>
+		        <h1>10+</h1>
 		        <p>Years Of Experienced</p>
 		      </div>
 		    </div>
 		    <div class="row thing-row">
 		      <div class="col">
-		        <h1>432</h1>
+		        <h1>1,432</h1>
 		        <p>Professional Team Members</p>
 		      </div>
 		    </div>
 		    <div class="row thing-row">
 		      <div class="col">
 		        <h1>24</h1>
-		        <p>Currently Serving Areas In City</p>
+		        <p>Currently Serving Countries</p>
 		      </div>
 		    </div>
 		     <div class="row thing-row">
 		      <div class="col">
-		        <h1>1k+</h1>
+		        <h1>150m+</h1>
 		        <p>Customers Happy With Us</p>
 		      </div>
 		    </div>
@@ -302,7 +352,7 @@
 	<!------ End of testimonies--> 
  	
  	<!------ beginning of contact us-->
- 	<div class="contat_bg pt-5 pb-5 mt-5">
+ 	<div class="contat_bg pt-5 pb-5 mt-5" id="contacts">
 	<div class="container contact-container">
 	  <div class="row">
 	    <div class="col-lg-6 contact-info">
@@ -313,7 +363,7 @@
 		        <i class="fa-solid fa-phone fa-xl" style="color:skyblue;"></i>
 		    </div>
 		        <div class="col">
-		            <p style="color: skyblue;" class="quick-info">Quick Contact</p>
+		            <p style="color: skyblue;" class="quick-info" >Quick Contact</p>
 		            <p>+(234)7038476839</p>
 		        </div>
 		    </div>
@@ -360,6 +410,19 @@
 	</div>
 	<!------ Ending of contact us--> 
 	
+
+	<!----Large Image of someone drinking water --->
+	<div class="row">
+		<div class="col-md-12 pt-2">
+			<div class="embed-responsive embed-responsive-16by9">
+	  		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126776.98095405119!2d3.4273001!3d6.7965208!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bc0b91a29fa81%3A0xe92e570709273423!2sMowe%2C%20Loburo%20110113%2C%20Ogun%20State!5e0!3m2!1sen!2sng!4v1719777284338!5m2!1sen!2sng" width="100%" height="800px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+	</div>
+
+	 <!----End of  Large Image of someone drinking water --->
+
+
 	<!-------Start FAQ----->
 	<div class="row">
 	<div class="col-md-8 justify-content-center mt-5 m-auto">
